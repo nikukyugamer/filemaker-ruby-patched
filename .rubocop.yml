@@ -1,0 +1,46 @@
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+    - .bundle/**
+    - filemaker.gemspec
+    - lib/filemaker/errors.rb
+    - lib/generators/filemaker/model/templates/model.rb
+
+Documentation:
+  Enabled: false
+
+BracesAroundHashParameters:
+  Enabled: false
+
+MethodLength:
+  Enabled: false
+
+LineLength:
+  Max: 80
+
+SpecialGlobalVars:
+  Enabled: false
+
+PredicateName:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 50
+
+Metrics/ClassLength:
+  Max: 200
+
+Metrics/BlockLength:
+  Max: 300
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
