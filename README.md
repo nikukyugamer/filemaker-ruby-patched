@@ -1,3 +1,18 @@
+# FileMaker Ruby Patched
+- Fixed version by Osamu Takiya
+    - Now my pull request (below) is not merged so I created this repository
+    - https://github.com/mech/filemaker-ruby/pull/12
+
+## Installation
+- Add below line in `Gemfile`
+
+```ruby
+gem 'filemaker', git: 'git@github.com:corselia/filemaker-ruby-patched.git'
+```
+
+- And `bundle install`
+- Enjoy fixed version
+
 # Filemaker
 
 [![Build Status](https://travis-ci.org/mech/filemaker-ruby.svg?branch=master)](https://travis-ci.org/mech/filemaker-ruby)
